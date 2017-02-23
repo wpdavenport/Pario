@@ -9,15 +9,15 @@ Gem::Specification.new do |s|
   s.version       = Pario::Version::STRING
   s.platform      = Gem::Platform::RUBY
   s.authors       = ['Bill Davenport', 'Anthony Burns']
-  s.email         = ['bill@infoether.com', 'anthony@infoether.com']
-  s.homepage      = 'http://github.com/ruby4kids/pario'
+  s.email         = ['wpdavenport@gmail.com']
+  s.homepage      = 'http://github.com/wpdavenport/pario'
   s.summary       = %q{A Gosu game framework}
   s.description   = %q{Pario is a Gosu game framework that helps to give you structure and a start for creating games}
   
   s.required_rubygems_version = '>= 1.3.7'
   s.rubyforge_project         = 'pario'
   
-  s.add_dependency('gosu',  '~> 0.7.26')
+  s.add_dependency('gosu',  '~> 0.10.4')
   
   s.files              = `git ls-files`.split("\n")
   s.executables        = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
