@@ -1,7 +1,7 @@
 module Util
 
   def background_image(pic)
-    Gosu::Image.new(self, pic, true)
+    Gosu::Image.new(pic, tileable: true)
   end
   
   #########################

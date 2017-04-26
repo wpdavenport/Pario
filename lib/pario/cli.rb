@@ -142,7 +142,7 @@ main_template.result(binding)
 game_template = ERB.new <<-EOF
 class #{game_name.capitalize} < Gosu::Window
   def initialize(window_width, window_height)
-    super(window_width,window_height,0)
+    super(window_width, window_height, false)
     
     # set $game_window as a global variable
     set_game_window(self)
