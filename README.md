@@ -1,26 +1,19 @@
 == Welcome to Pario
 
-Pario is a Gosu Game framework that helps to give you structure and a start for creating games. Inspired by Rails [https://github.com/rails/rails].
+Pario is a game building framework that aims to give structure and quick start for creating games with the Ruby programming language. It uses the Gosu graphric library.
 
 == Installation
 
 	`gem install pario`
 	`brew install libgosu`
 
-	* Windows users: gem install pario
-	* ALSO: Gosu will automatically be installed when you install pario
-
-   Other Requirements
-	* sudo gem update --system
-	* ruby patchlevel 330 or highter, you may experience issues. Working on instructions to upgrade ruby on a system.
+	* Gosu will automatically be installed when you install pario
 
 == Getting Started
 
 1. At the command prompt, create a new Pario application:
 
 	pario new my_game
-   
-   where my_game is the game name.
 
 2. Change the directory to my_game and start the game:
 
