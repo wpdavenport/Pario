@@ -4,10 +4,10 @@ Pario is a game building framework that aims to give structure and quick start f
 
 ## Installation
 
-	`gem install pario`
-	`brew install libgosu`
+        $ gem install pario
+        $ brew install libgosu
 
-	* Gosu will automatically be installed when you install pario
+* Gosu will automatically be installed when you install pario
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ Pario is a game building framework that aims to give structure and quick start f
 
         $ pario add my_class
 	
-	* Pario will create more than one class if you have more: pario add star background player
+* Pario will create more than one class if you have more: pario add star background player
 
 ## Learning Ruby
 
